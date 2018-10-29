@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.css" rel="stylesheet">
+  <link rel="icon" href="favicon.ico." type="image/x-icon"/> 
+  <!-- added .png extention -->
+  <link href="index.css" type="text/css" rel="stylesheet">
+  <script src="script.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Kodchasan|Oxygen+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+  <title>Playground</title>
+</head>
+<body>
+<!--Should be a fixed header-->
+<header class="header">
+  <nav>
+      <a href="index.html"> Main</a>
+      <a href="about.html"> About us</a>
+    <a href="contact.html"> Contact us</a>
+      <div class="logging">
+        <label for="log_in">Login:</label>
+        <input type="text" placeholder="Enter Your Login" />
+
+        <label for="log_in">Password:</label>
+        <input type="password" placeholder="Enter Your Password" />
+        
+    </div>
+  <a href="#"onclick="myFunction()">Log In</a>
+ 
+  </nav>
+ 
+</header>
+<figure>
+    <img src="header-bar.jpg"><!--Some 200px min-height image that takes all the horizontal space-->
+    <img/>
+</figure>
+<main>
+  <article style="width:70%; text-align:center; margin:auto">
+      <header><h1>About us</h1></header>
+    <div class="art_1">
+      <p>
+      Sed volutpat erat id volutpat convallis. Fusce tempor hendrerit euismod. Donec euismod mauris ligula, sed tincidunt augue sollicitudin at. Maecenas ut dictum leo. Fusce vel ultricies turpis. Sed et consectetur ante. Nam iaculis lacus eu lacus egestas, at scelerisque ipsum consectetur. Nam vitae augue sit amet tellus elementum viverra. Sed tincidunt orci et dui ultricies, vitae vestibulum lacus dapibus. Aliquam ligula arcu, posuere dignissim mi sed, posuere suscipit ante. Nam feugiat tincidunt lobortis. Nulla maximus fermentum dictum. Phasellus lacus sapien, imperdiet ac tincidunt vel, semper pulvinar odio. Mauris turpis nisl, tempus a nulla laoreet, commodo cursus nibh. Nunc congue massa id lobortis aliquam. Aenean ultricies, leo sed faucibus auctor, arcu nunc luctus eros, sed posuere metus tortor non libero. Cras condimentum fringilla arcu egestas dignissim. Ut dignissim, leo at vulputate eleifend, libero leo cursus turpis, at ullamcorper dolor quam non libero. Aliquam consectetur non risus et gravida. Nam feugiat facilisis justo. Aliquam non placerat dolor. Mauris interdum massa velit, ultrices commodo purus vulputate at. Sed lacinia vel enim id interdum. Sed dictum sem eu libero viverra, a dapibus quam luctus.
+  </p>
+  </div>
+ 
+  <h2>More about us!</h2>
+    <div class="art_2">
+    
+    <p title="fl-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat nibh eu orci porttitor, sed vehicula risus blandit. Duis nibh lacus, sagittis sit amet sagittis a, auctor nec velit. Duis lobortis dictum justo. Curabitur eu metus et arcu vestibulum gravida quis et magna. Aenean molestie mi nec massa pharetra vestibulum. Fusce consequat tortor non convallis accumsan. Nullam eget nunc elit. Maecenas aliquam tortor consectetur dolor auctor, vel sollicitudin dolor accumsan. Sed pulvinar erat ac turpis vestibulum accumsan. Proin sed placerat turpis. Duis tristique ut urna sit amet tincidunt. Curabitur rhoncus elit et mi sollicitudin vulputate. Cras facilisis posuere venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque fringilla massa vel facilisis. Aenean suscipit lacus elementum neque accumsan, nec molestie erat feugiat. Nulla ut aliquam elit. Nullam augue dui, hendrerit sed neque at, imperdiet hendrerit velit.</p>
+    </div>
+
+  </article>
+  <div class="code>">
+     <p title="mono">
+      Here is some monospaced code block
+    </p>
+    <!--Make it nice with padding and a little grey background and borders.-->
+    <pre>document.addEventListener('click', () => console.log('topkek'))</pre>
+  </div>
+</main>
+
+<!--two sections. On left this links on right social buttons (steal some images from internet)-->
+<footer class="footer">
+    <section class="footer--menu">
+      <a href="#"> Login </a>
+      <a href="#"> About us </a>
+      <a href="#"> Contact us </a>
+    </section>
+    <section class="footer--social">
+      <!-- should be a aligned to the right social network buttons -->
+      <a href="www.facebook.com">
+          <img src="fb.png" title="facebook"/>
+      </a>
+      <a href="https://twitter.com/" target="_blank" >
+        <img src="tw.png" title="facebook"/></a>
+      <a href="www.instagram.com" target="_blank">
+          <img src="in.png" title="facebook"/></a>
+    </section>
+  </footer> 
+</body>
+</html>

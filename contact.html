@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.0/normalize.css" rel="stylesheet">
+  <link rel="icon" href="favicon.ico." type="image/x-icon"/> 
+  <!-- added .png extention -->
+  <link href="index.css" type="text/css" rel="stylesheet">
+  <script src="script.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Kodchasan|Oxygen+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+  <title>Playground</title>
+</head>
+<body>
+<!--Should be a fixed header-->
+<header class="header">
+  <nav>
+      <a href="index.html"> Main</a>
+      <a href="about.html"> About us</a>
+    <a href="contact.html"> Contact us</a>
+      <div class="logging">
+        <label for="log_in">Login:</label>
+        <input type="text" placeholder="Enter Your Login" />
+
+        <label for="log_in">Password:</label>
+        <input type="password" placeholder="Enter Your Password" />
+        
+    </div>
+  <a href="#"onclick="myFunction()">Log In</a>
+ 
+  </nav>
+ 
+</header>
+<figure>
+    <img src="header-bar.jpg"><!--Some 200px min-height image that takes all the horizontal space-->
+    <img/>
+</figure>
+<main>
+  <article>
+      <header><h1>Contact us</h1></header>
+      <div class="article--form">  
+          <form id="contact" action="" method="post">
+            <h2>Contact us for more information</h2>
+            <fieldset>
+              <input placeholder="Your name" type="text" tabindex="1"   >
+            </fieldset>
+            <fieldset>
+              <input placeholder="Your Email Address" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+              <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+              <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+              <button name="send" type="send" id="contact-send" data-submit="...Sending">Send</button>
+            </fieldset>
+          </form>
+        </div>
+</main>
+
+<!--two sections. On left this links on right social buttons (steal some images from internet)-->
+<footer class="footer">
+    <section class="footer--menu">
+      <a href="#"> Login </a>
+      <a href="#"> About us </a>
+      <a href="#"> Contact us </a>
+    </section>
+    <section class="footer--social">
+      <!-- should be a aligned to the right social network buttons -->
+      <a href="www.facebook.com">
+          <img src="fb.png" title="facebook"/>
+      </a>
+      <a href="https://twitter.com/" target="_blank" >
+        <img src="tw.png" title="facebook"/></a>
+      <a href="www.instagram.com" target="_blank">
+          <img src="in.png" title="facebook"/></a>
+    </section>
+  </footer>
+</body>
+</html>
